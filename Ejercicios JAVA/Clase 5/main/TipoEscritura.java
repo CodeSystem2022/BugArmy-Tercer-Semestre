@@ -1,6 +1,4 @@
-
 package main;
-
 
 public enum TipoEscritura {
     CLASICO("Escritura a mano"),
@@ -11,8 +9,6 @@ public enum TipoEscritura {
     private TipoEscritura(String descripcion){ //constructor
         this.descripcion = descripcion;
     }
-    
-    //metodo get 
     public String getDescripcion(){
         return this.descripcion;
     
