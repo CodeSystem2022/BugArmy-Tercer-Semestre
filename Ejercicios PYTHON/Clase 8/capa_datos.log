@@ -1,0 +1,46 @@
+02:03:44 PM:DEBUG [logger_base.py:11] Mensaje a nivel depuracion
+02:03:44 PM:INFO [logger_base.py:12] Mensaje a nivel informacion
+02:03:44 PM:WARNING [logger_base.py:13] Mensaje a nivel advertencia
+02:03:44 PM:ERROR [logger_base.py:14] Mensaje a nivel error
+02:03:44 PM:CRITICAL [logger_base.py:15] Mensaje a nivel critico
+
+02:41:20 PM:DEBUG [Persona.py:54] 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Email: jperez@gmail.com
+
+02:45:14 PM:DEBUG [Persona.py:54] 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Email: jperez@gmail.com
+
+02:45:14 PM:DEBUG [Persona.py:56] 
+            Id persona: None
+            Nombre: Jose
+            Apellido: Lepez
+            Email: ljose@gmail.com
+
+02:49:18 PM:DEBUG [Persona.py:54] 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Email: jperez@gmail.com
+
+02:49:18 PM:DEBUG [Persona.py:56] 
+            Id persona: None
+            Nombre: Jose
+            Apellido: Lepez
+            Email: ljose@gmail.com
+
+02:49:18 PM:DEBUG [Persona.py:58]
+            Id persona: 1
+            Nombre: None
+            Apellido: None
+            Email: None
+
+03:10:30 PM:ERROR [conexion.py:26] Ocurrio un error:
+03:12:37 PM:DEBUG [conexion.py:23] Conexion Exitosa: <connection object at 0x00000170F7FC0AE0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
+03:27:29 PM:ERROR [conexion.py:26] Ocurrio un error: <class 'Exception'>
+03:27:43 PM:DEBUG [conexion.py:23] Conexion Exitosa: <connection object at 0x00000263568E0AE0; dsn: 'user=postgres password=xxx dbname=test_bd host=127.0.0.1 port=5432', closed: 0>
