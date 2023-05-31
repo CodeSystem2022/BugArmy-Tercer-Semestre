@@ -29,7 +29,7 @@
           GervasiFacundo = new FacundoGerv(Completado);
           ChavezJesus = new DoctorRemix(Completado);
           RodrigoAmoros = new rodrigoamoros(Completado);
-          RossiIvo = new ivorossi();
+          RossiIvo = new ivorossi(Completado);
           KevinBaez = new KevDev2()
           AgustinPinillos = new pini14();
           SergioMezzabotta = new WDSAM();
