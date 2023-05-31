@@ -33,7 +33,7 @@
           KevinBaez = new KevDev2(En Progreso);
           AgustinPinillos = new pini14();
           SergioMezzabotta = new WDSAM();
-          LucianoBugarin = new BugaToro();
+          LucianoBugarin = new BugaToro(Completado);
           GuajardoJose = new michimurri();
           BenegasCristian = new SlimCb();
      }
