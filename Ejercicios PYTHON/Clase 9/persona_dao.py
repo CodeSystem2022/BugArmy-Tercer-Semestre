@@ -1,3 +1,6 @@
+from capa_datos_persona.Persona import Persona
+from capa_datos_persona.Conexion import Conexion
+from logger_base import log
 class PersonaDAO:
     """
     DAO significa: Data Access Object
@@ -23,4 +26,9 @@ class PersonaDAO:
                 for registros in registros:
                     persona = Persona(registro[0], registros[1], registro[2], registro[3])
                     persona.append(persona)
+                return personas
                     
+if __name__ == '__main__':
+    personas = PersonaDAO.seleccionar()
+    for persona in personas:
+        log.debug(persona)
