@@ -82,7 +82,7 @@
   </tr>
     <tr>
    <td>Semana 10</td>
-      <td align=center><a href=https://github.com/michimurri>Guajardo Jose</a></td>
+      <td align=center><a href=https://github.com/chimydevs>Guajardo Jose</a></td>
   </tr>
     <tr>
    <td>Semana 11</td>
