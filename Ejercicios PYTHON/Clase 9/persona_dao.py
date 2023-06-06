@@ -33,7 +33,7 @@ class PersonaDAO:
     def insertar(cls, persona):
         with Conexion.obtenerCursor():
             with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellidom persona.email)
+                valores = (persona.nombre, persona.apellido, persona.email)
                 cursor.execute(cls._INSERTAR, valores)
                 log.debug(f'Persona Insertada: {persona}')
                 return cursor.rowcount
@@ -58,9 +58,9 @@ class PersonaDAO:
                     
 if __name__ == '__main__':
     #Eliminar un registro
-    persona1 = Persona(id_persona=8)
-    personas_eliminadas = PersonaDAO.eliminar(persona1)
-    log.debug(f'Personas eliminadas: {personas_eliminadas}')
+    # persona1 = Persona(id_persona=8)
+    # personas_eliminadas = PersonaDAO.eliminar(persona1)
+    # log.debug(f'Personas eliminadas: {personas_eliminadas}')
     
     #actualizar un registro
     #persona1 = Persona(1, 'Juan Jose', 'Pena', 'jjpena@gmail.com')
