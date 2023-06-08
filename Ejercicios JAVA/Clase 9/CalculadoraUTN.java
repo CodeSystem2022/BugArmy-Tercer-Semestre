@@ -6,16 +6,7 @@ public class CalculadoraUTN  {
         while (true){ //Ciclo infinito
 
             System.out.println("******* Aplicacion Calculadora *******");
-            //Mostramos el menú
-            System.out.println("""
-                    1. Suma
-                    2. Resta
-                    3. Multiplacion
-                    4. Division
-                    5. Salir
-                    """);
-
-            System.out.print("Operacion a realizar?: ");
+            mostrarMenu();
 
             try{
                 var operacion = Integer.parseInt(entrada.nextLine());
@@ -61,6 +52,18 @@ public class CalculadoraUTN  {
             }
         } //Fin while
     } //Fin main
+    private static void mostrarMenu(){
+        //Mostramos el menú
+        System.out.println("""
+                    1. Suma
+                    2. Resta
+                    3. Multiplacion
+                    4. Division
+                    5. Salir
+                    """);
+
+        System.out.print("Operacion a realizar?: ");
+    }
 } //Fin clase
 
 
