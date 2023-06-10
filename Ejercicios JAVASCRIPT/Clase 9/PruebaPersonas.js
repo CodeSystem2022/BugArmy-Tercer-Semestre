@@ -76,3 +76,10 @@ class Cliente extends Persona {
         return `${super.toString()} ${this._idCliente} ${this.fechaRegistro}`;
     }
 }
+
+let p1 = new Persona('Juan', 'Perez', 32);
+let p2 = new Persona('Carla', 'Perez', 22);
+
+
+console.log(p1.toString());
+console.log(p2.toString());
