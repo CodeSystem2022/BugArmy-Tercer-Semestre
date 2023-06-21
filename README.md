@@ -34,7 +34,7 @@
           AgustinPinillos = new pini14(Completado);
           LucianoBugarin = new BugaToro(Completado);
           SergioMezzabotta = new Artyom(Completado);
-          GuajardoJose = new chimidevs();
+          GuajardoJose = new chimidevs(Completado);
           BenegasCristian = new SlimCb();
      }
    ```
