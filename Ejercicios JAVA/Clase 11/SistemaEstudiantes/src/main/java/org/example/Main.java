@@ -1,7 +1,14 @@
 package org.example;
 
+import org.example.conexion.Conexion;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
-}
+    public static void main(String[] args){
+        var conexion = Conexion.getConnection();
+        if(conexion != null)
+            System.out.println("Conexión exitosa: "+conexion);
+        else
+            System.out.println("Error al conectarse");
+
+    }//Fin main
+}//Fin main
