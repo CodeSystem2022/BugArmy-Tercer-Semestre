@@ -35,7 +35,7 @@
           LucianoBugarin = new BugaToro(Completado);
           SergioMezzabotta = new Artyom(Completado);
           GuajardoJose = new chimidevs(Completado);
-          BenegasCristian = new SlimCb();
+          BenegasCristian = new SlimCb(Completado);
      }
    ```
    </p>
