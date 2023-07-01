@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input.textRegister {
+    @apply w-full border-b border-blue-900 mb-3 my-1 py-2 px-3 ml-2 bg-transparent text-gray-300;
+    @apply bg-gradient-to-t from-blue-500 via-transparent via-20% to-transparent;
+}
+
+input.textRegister:focus {
+    @apply shadow-[inset_0px_-9px_10px_-10px] border-b border-violet-700 outline-none shadow-violet-400 !important;
+    @apply bg-gradient-to-t from-violet-500 via-transparent via-20% to-transparent;
+}
+
+button {
+    @apply bg-gray-300;
+}
+
+button.primary {
+    @apply bg-transparent border-b border-blue-500 mt-9 hover:shadow-[inset_0_-9px_10px_-10px] hover:border-violet-700 hover:outline-none hover:shadow-violet-800 p-2 w-[35%] text-gray-300 my-2;
+}
+
+/* Animacion del boton */
+button.primary:focus {
+    @apply animate-[ping_1s];
+}
+
+/* LOGO */
+img.mainLogo {
+    @apply w-12 h-12 border border-transparent shadow-[inset_9px_6px_12px_-1px] p-2 overflow-hidden rounded-full shadow-blue-200 active:animate-[ping_1s];
+}
+
+img.mainLogo {
+    @apply transition duration-[5s] shadow-blue-200;
+}
+
+img.mainLogo:hover {
+    @apply transition shadow-violet-700;
+}
+
+/* NAVBAR */
+.mainNav { 
+    @apply shadow-[box_0px_1px_4px_0px] shadow-blue-200;
+}
+
+/* PerkList */
+.perkListContainer {
+    @apply grid grid-rows-3 grid-flow-col justify-between p-2 gap-3;
+}
+.perkList {
+    @apply overflow-hidden w-[350px] select-none border border-blue-300 py-2 px-0 text-center justify-start pl-2 text-gray-500 flex rounded-none gap-2 items-center cursor-pointer;
+}
+
+input.Places{
+    @apply border-b-2 border-blue-300 w-full text-black bg-transparent;
+}
+input.Places:focus {
+    @apply outline-none overflow-hidden border-violet-700 shadow-[inset_0px_-9px_10px_-10px] shadow-blue-300;
+}
+
+perkList:focus {
+    @apply bg-blue-500;
+}
+div.formatForm{
+    @apply w-[33%] px-2 text-center gap-4;
+}
+
+/* Horarios Entrada / Salida / Wespedes */
+
+input.hourInputs{
+    @apply border-2 border-blue-300 text-center w-[15%] text-black bg-transparent;
+}
+input.hourInputs:focus {
+    @apply outline-none overflow-hidden border-violet-700 shadow-[inset_0px_-9px_10px_-10px] shadow-blue-300;
+}
+
+input.hourInputs:hover h3.uwu{
+    @apply border-red-500;
+}
+@layer components{
+    .perkList:has(input:checked){
+        @apply border-violet-700 shadow-[inset_0px_-9px_10px_-10px] shadow-violet-500;
+    }
+}
