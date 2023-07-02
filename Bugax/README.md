@@ -1,12 +1,13 @@
 # Bugax
 </br></br>
 <div align=center>
-  
-Video Aqui
+ 
+https://github.com/CodeSystem2022/BugArmy-Tercer-Semestre/assets/79487697/e198807c-e48a-437c-b930-0314261afecf
+
   
 </div>
 </br></br>
-#
+
   <details align=left>
    <summary float=left>Integrantes</summary> 
    <p>
@@ -63,7 +64,7 @@ A menudo los clientes prefieren reservar directamente en las páginas webs de lo
 
  </details>
 
-</br></br></br></br></br></br></br></br>
+
 <p align=center>
 Todos los derechos reservados a BugArmy™.
 </p>
